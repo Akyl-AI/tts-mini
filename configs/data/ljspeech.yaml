@@ -1,0 +1,22 @@
+_target_: matcha.data.text_mel_datamodule.TextMelDataModule
+name: ljspeech
+train_filelist_path: /content/kany_dataset/kany_filelist_train.txt
+valid_filelist_path: /content/kany_dataset/kany_filelist_test.txt
+batch_size: 16
+num_workers: 20
+pin_memory: True
+cleaners: [kyrgyz_cleaners]
+add_blank: True
+n_spks: 1
+n_fft: 1024
+n_feats: 80
+sample_rate: 22050
+hop_length: 256
+win_length: 1024
+f_min: 0
+f_max: 8000
+data_statistics:  # Computed for ljspeech dataset
+  mel_mean: -5.68145561
+  mel_std: 2.7337122
+seed: ${seed}
+
