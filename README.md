@@ -37,7 +37,7 @@ It is recommended to start by setting up a virtual environment using `venv`.
 1. Clone this repository and install all modules and dependencies by running the commands:
 
 ```
-git clone https://github.com/simonlobgromov/Matcha-TTS
+git clone https://github.com/Akyl-AI/tts-mini
 cd Matcha-TTS
 pip install -e .
 apt-get install espeak-ng
@@ -158,7 +158,7 @@ Example a row:
 * **Load this repo and connect to HF**
 
 ```
-git clone https://github.com/simonlobgromov/Matcha-TTS
+git clone https://github.com/Akyl-AI/tts-mini
 cd Matcha-TTS
 pip install -e .
 ```
