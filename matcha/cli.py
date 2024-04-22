@@ -18,13 +18,13 @@ from matcha.text import sequence_to_text, text_to_sequence
 from matcha.utils.utils import assert_model_downloaded, get_user_data_dir, intersperse
 
 MATCHA_URLS = {
-    "akyl_ai": "https://github.com/simonlobgromov/AkylAI_Matcha_Checkpoint/releases/download/Matcha-TTS/checkpoint_epoch.499.ckpt",
+    "akyl_ai": "https://github.com/Akyl-AI/tts-mini/releases/download/AkylAI-TTS/checkpoint_epoch.499.ckpt",
     "matcha_vctk": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/matcha_vctk.ckpt",
 }
 
 VOCODER_URLS = {
-    "hifigan_T2_v1": "https://github.com/simonlobgromov/AkylAI_Matcha_HiFiGan/releases/download/Generator/generator_v1",  # Old url: https://drive.google.com/file/d/14NENd4equCBLyyCSke114Mv6YR_j_uFs/view?usp=drive_link
-    "hifigan_univ_v1": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/g_02500000",  # Old url: https://drive.google.com/file/d/1qpgI41wNXFcH-iKq1Y42JlBC9j0je8PW/view?usp=drive_link
+    "hifigan_T2_v1": "https://github.com/Akyl-AI/tts-mini/releases/download/AkylAI-TTS/generator_v1", 
+    "hifigan_univ_v1": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/g_02500000",
 }
 
 MULTISPEAKER_MODEL = {
